@@ -1,0 +1,79 @@
+.upload-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0px 20px 50px rgba(232, 232, 246, 0.8);
+}
+
+.upload-container {
+  width: 90%;
+  height: 170px;
+  margin: 0 auto;
+  border: 3px dashed #e1dafa;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.illustration {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+p {
+  font-weight: bold;
+}
+
+span {
+  color: #7b6bfa;
+}
+
+.button {
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #7e6bfb;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  outline: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
+    0px 30px 60px rgba(23, 0, 102, 0.4),
+    inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.4);
+  transition-property: box-shadow;
+  transition-duration: 1s;
+  outline: none;
+}
+
+.upload-file-list {
+  max-height: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding: 0 20px;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 550px) {
+  .upload-buttons {
+    flex-direction: column;
+  }
+}
