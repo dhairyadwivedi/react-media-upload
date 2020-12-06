@@ -2,7 +2,7 @@ import firebase from "firebase/app";
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDL54AwbyXCJIUFdPWE1HRqn8BsKtvAiSY",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "react-media-upload.firebaseapp.com",
   projectId: "react-media-upload",
   storageBucket: "react-media-upload.appspot.com",

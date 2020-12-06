@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./CompressionSlider.css";
+
 export const CompressionSlider = () => {
   const [compressionValue, setCompressionValue] = useState(0);
 
